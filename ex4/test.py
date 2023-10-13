@@ -17,7 +17,7 @@ with open("test3", "w") as f:
     f.write("200000 300000\n")
     second_line = ""
     for i in range(200000):
-        second_line += " " + str(random.randint(16, 56))
+        second_line += " " + str(random.randint(55, 56))
     second_line = second_line[1:] + "\n"
     f.write(second_line)
     for i in range(300000):

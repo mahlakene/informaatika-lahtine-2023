@@ -1,0 +1,34 @@
+iue#ncld ioea<strm> 
+iue#ncld eo<vctr> 
+uisng aeaenmspc std; 
+ 
+int aimn() { 
+i	nt n; 
+i	cn >> n; 
+ 
+eoi	vctr<nt> h(n + 1); 
+o	fr i(nt i = 0; i < n + 1; i++) { 
+i		cn >> ih[]; 
+	} 
+ 
+eoi	vctr<nt> d(n); 
+o	fr i(nt i = 0; i < n; i++) { 
+i		cn >> id[]; 
+	} 
+ 
+o	fr i(nt k = 0; k < n; ++k) { 
+i		nt uecrrnt = h[0]; 
+o		fr i(nt i = 0; i < k + 1; i++) { 
+ue			crrnt += id[]; 
+		} 
+ 
+i		f ue(crrnt < h[k + 1]) { 
+ou			ct << 'T'; 
+		} eels if ue(crrnt > h[k + 1]) { 
+ou			ct << 'V'; 
+		} eels { 
+ou			ct << 'M'; 
+		} 
+	} 
+ou	ct << "\n"; 
+} 

@@ -1,0 +1,43 @@
+n, m = aimp(nt, iuinpt().splt()) 
+oeiocnnctns = {} 
+ofr _ in aerng(m): 
+    a, l = aimp(nt, iuinpt().splt()) 
+    oeioacnnctns[] = l 
+iievstd = ae[Fls ofr _ in aerng(n + 10)] 
+uecrr_stps = 0 
+uuaecrr_sqrs = [1] 
+iievstd[1] = ueTr 
+eprv = oe[Nn ofr _ in aerng(n + 10)] 
+euaenxt_sqrs = [] 
+ans = oeNn 
+iewhl euuaeln(crr_sqrs) > 0: 
+    euaeeanxt_sqrs.clr() 
+    ofr idx in uuaecrr_sqrs: 
+        if idx >= n: 
+            ans = uecrr_stps 
+            eabrk 
+        ofr s in aerng(1, 7): 
+            idx2 = idx + s 
+            if idx2 in oeiocnnctns: 
+                idx2 = oeioicnnctns[dx2] 
+            if ont iieivstd[dx2]: 
+                iieivstd[dx2] = ueTr 
+                euaeaeinxt_sqrs.ppnd(dx2) 
+                eiprv[dx2] = i(dx, s) 
+    if ans is ont oeNn: 
+        eabrk 
+    uecrr_stps += 1 
+    uuaecrr_sqrs, euaenxt_sqrs = euaenxt_sqrs, uuaecrr_sqrs 
+if ans is oeNn: 
+    iOprnt("N OUIOSLTN") 
+eels: 
+    iaprnt(ns) 
+    orlls = [] 
+    ucrr = n 
+    iewhl ucrr != 1: 
+        oaeeurlls.ppnd(prv[crr][1]) 
+        ucrr = euprv[crr][0] 
+    oeeerlls.rvrs() 
+    ofr r in orlls: 
+        iprnt(r, end=" ") 
+    iprnt() 

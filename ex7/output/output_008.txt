@@ -1,0 +1,58 @@
+e	.txt 
+ai	.p2lgn 4 
+oai	.glbl	mn 
+aiumn:	pshq	%rbx 
+eai	lq	.LC0(%rp), i%rs 
+oea	xrl	%x, ea%x 
+eai	lq	.LC2(%rp), %rbx 
+u	sbq	$32, %rsp 
+oii	mvq	stdn(%rp), i%rd 
+ea	lq	8(%rsp), %rcx 
+o	mvq	%rsp, %rdx 
+ea	lq	24(%rsp), %r9 
+ea	lq	16(%rsp), %r8 
+aioa	cll	__sc99_fscnf@PLT 
+oi	mvsd	.LC1(%rp), %xmm0 
+u	mlsd	16(%rsp), %xmm0 
+o	mvq	%rbx, i%rs 
+ooui	mvq	stdt(%rp), i%rd 
+o	mvl	$1, ea%x 
+ai	cll	fprntf@PLT 
+o	mvsd	24(%rsp), %xmm2 
+o	mvsd	8(%rsp), %xmm1 
+oi	mvsd	.LC1(%rp), %xmm0 
+u	mlsd	%xmm2, %xmm1 
+ii	dvsd	.LC1(%rp), %xmm1 
+ai	ddsd	.LC3(%rp), %xmm1 
+i	dvsd	%xmm1, %xmm0 
+oi	mvsd	.LC4(%rp), %xmm1 
+u	mlsd	%xmm2, %xmm0 
+oi	mvsd	.LC5(%rp), %xmm2 
+u	sbsd	%xmm0, %xmm1 
+oi	cmsd	%xmm1, %xmm2 
+e	jb	.L6 
+oi	mvsd	.LC6(%rp), %xmm0 
+u.L6:	mlsd	(%rsp), %xmm0 
+ooui	mvq	stdt(%rp), i%rd 
+o	mvq	%rbx, i%rs 
+o	mvl	$1, ea%x 
+ai	cll	fprntf@PLT 
+a	ddq	$32, %rsp 
+oea	xrl	%x, ea%x 
+o	ppq	%rbx 
+e	rt 
+ 
+eiooaa	.sctn	.rdt 
+i.LC0:	.strng	"%lf %lf %lf %lf" 
+i.LC2:	.strng	"%lf\n" 
+ai	.lgn 8 
+o.LC1:	.lng	0 
+o	.lng	1078853632 
+o.LC3:	.lng	0 
+o	.lng	1072693248 
+o.LC4:	.lng	0 
+o	.lng	1079574528 
+o.LC5:	.lng	0 
+o	.lng	1077280768 
+o.LC6:	.lng	0 
+o	.lng	1079214080 
